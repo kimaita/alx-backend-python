@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-""""""
 """Contains a method for calling wait_random muliple times"""
 
 import asyncio
@@ -20,5 +19,4 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """
 
     r = await asyncio.gather(*(wait_random(max_delay) for i in range(n)))
-    return r
     return sorted(r)
