@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """"""
+"""Contains a method for calling wait_random muliple times"""
 
 import asyncio
 from typing import List
