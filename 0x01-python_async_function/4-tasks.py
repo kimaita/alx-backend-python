@@ -8,7 +8,8 @@ task_wait_random = __import__("3-tasks").task_wait_random
 
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
-    """Calls task_wait_random n times, returning a list of random floats of length n
+    """Calls task_wait_random n times,
+    returning a list of random floats of length n
 
     Args:
         n(int)
